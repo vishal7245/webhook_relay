@@ -5,7 +5,8 @@ import asyncio
 app = FastAPI()
 
 TARGET_ENDPOINTS = [
-   
+   "https://ronasbnb.com/reminders/whook2.php",
+   "https://reminder.tripxap.com/webhook"
 ]
 
 async def forward_payload(url: str, payload: dict):
