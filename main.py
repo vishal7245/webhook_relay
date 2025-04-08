@@ -6,7 +6,9 @@ app = FastAPI()
 
 TARGET_ENDPOINTS = [
    "https://ronasbnb.com/reminders/whook2.php",
-   "https://reminder.tripxap.com/api/webhook"
+   "https://reminder.tripxap.com/api/webhook",
+   "https://n8n.tripxap.com/webhook-test/f72c7da2-e62c-4789-a339-16bc8961d4e9",
+   "https://n8n.tripxap.com/webhook/f72c7da2-e62c-4789-a339-16bc8961d4e9"
 ]
 
 async def forward_payload(url: str, payload: dict):
